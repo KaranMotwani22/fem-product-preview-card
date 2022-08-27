@@ -50,6 +50,7 @@ img {
 .left > img {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+  min-height: 100%;
 }
 
 .right {
