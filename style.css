@@ -41,6 +41,11 @@ img {
   font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .left {
