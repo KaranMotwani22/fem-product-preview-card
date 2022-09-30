@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--cream);
+   background-image: linear-gradient(to right, #cf7bff 0%, #80e1ff 100%);
 }
 
 img {
@@ -34,6 +34,8 @@ img {
 }
 
 .card {
+  position: relative;
+  animation: mymove 5s;
   max-width: 600px;
   display: flex;
   border-radius: 0.5rem;
@@ -162,4 +164,12 @@ img {
   .for-mobile {
     display: block;
   }
+}
+@keyframes mymove {
+  from {
+    top: 200px;
+    width: 0;
+  }
+  to {top: 0px;
+  width: 100%;}
 }
